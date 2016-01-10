@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735977331C4322F400B758D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735977321C4322F400B758D3 /* AppDelegate.swift */; };
+		735977351C4322F400B758D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735977341C4322F400B758D3 /* ViewController.swift */; };
+		735977381C4322F400B758D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735977361C4322F400B758D3 /* Main.storyboard */; };
+		7359773B1C4322F400B758D3 /* Yahoo_Flurry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 735977391C4322F400B758D3 /* Yahoo_Flurry.xcdatamodeld */; };
+		7359773D1C4322F400B758D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7359773C1C4322F400B758D3 /* Assets.xcassets */; };
+		735977401C4322F400B758D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7359773E1C4322F400B758D3 /* LaunchScreen.storyboard */; };
+		7359774B1C4322F500B758D3 /* Yahoo_FlurryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7359774A1C4322F500B758D3 /* Yahoo_FlurryTests.swift */; };
+		735977561C4322F500B758D3 /* Yahoo_FlurryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735977551C4322F500B758D3 /* Yahoo_FlurryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		735977471C4322F500B758D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 735977271C4322F400B758D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7359772E1C4322F400B758D3;
+			remoteInfo = Yahoo_Flurry;
+		};
+		735977521C4322F500B758D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 735977271C4322F400B758D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7359772E1C4322F400B758D3;
+			remoteInfo = Yahoo_Flurry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7359772F1C4322F400B758D3 /* Yahoo_Flurry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yahoo_Flurry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		735977321C4322F400B758D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		735977341C4322F400B758D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		735977371C4322F400B758D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7359773A1C4322F400B758D3 /* Yahoo_Flurry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yahoo_Flurry.xcdatamodel; sourceTree = "<group>"; };
+		7359773C1C4322F400B758D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7359773F1C4322F400B758D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		735977411C4322F400B758D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735977461C4322F500B758D3 /* Yahoo_FlurryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yahoo_FlurryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7359774A1C4322F500B758D3 /* Yahoo_FlurryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_FlurryTests.swift; sourceTree = "<group>"; };
+		7359774C1C4322F500B758D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735977511C4322F500B758D3 /* Yahoo_FlurryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yahoo_FlurryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		735977551C4322F500B758D3 /* Yahoo_FlurryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_FlurryUITests.swift; sourceTree = "<group>"; };
+		735977571C4322F500B758D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7359772C1C4322F400B758D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735977431C4322F500B758D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7359774E1C4322F500B758D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		735977261C4322F400B758D3 = {
+			isa = PBXGroup;
+			children = (
+				735977311C4322F400B758D3 /* Yahoo_Flurry */,
+				735977491C4322F500B758D3 /* Yahoo_FlurryTests */,
+				735977541C4322F500B758D3 /* Yahoo_FlurryUITests */,
+				735977301C4322F400B758D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		735977301C4322F400B758D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7359772F1C4322F400B758D3 /* Yahoo_Flurry.app */,
+				735977461C4322F500B758D3 /* Yahoo_FlurryTests.xctest */,
+				735977511C4322F500B758D3 /* Yahoo_FlurryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		735977311C4322F400B758D3 /* Yahoo_Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				735977321C4322F400B758D3 /* AppDelegate.swift */,
+				735977341C4322F400B758D3 /* ViewController.swift */,
+				735977361C4322F400B758D3 /* Main.storyboard */,
+				7359773C1C4322F400B758D3 /* Assets.xcassets */,
+				7359773E1C4322F400B758D3 /* LaunchScreen.storyboard */,
+				735977411C4322F400B758D3 /* Info.plist */,
+				735977391C4322F400B758D3 /* Yahoo_Flurry.xcdatamodeld */,
+			);
+			path = Yahoo_Flurry;
+			sourceTree = "<group>";
+		};
+		735977491C4322F500B758D3 /* Yahoo_FlurryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7359774A1C4322F500B758D3 /* Yahoo_FlurryTests.swift */,
+				7359774C1C4322F500B758D3 /* Info.plist */,
+			);
+			path = Yahoo_FlurryTests;
+			sourceTree = "<group>";
+		};
+		735977541C4322F500B758D3 /* Yahoo_FlurryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				735977551C4322F500B758D3 /* Yahoo_FlurryUITests.swift */,
+				735977571C4322F500B758D3 /* Info.plist */,
+			);
+			path = Yahoo_FlurryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7359772E1C4322F400B758D3 /* Yahoo_Flurry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7359775A1C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_Flurry" */;
+			buildPhases = (
+				7359772B1C4322F400B758D3 /* Sources */,
+				7359772C1C4322F400B758D3 /* Frameworks */,
+				7359772D1C4322F400B758D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yahoo_Flurry;
+			productName = Yahoo_Flurry;
+			productReference = 7359772F1C4322F400B758D3 /* Yahoo_Flurry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		735977451C4322F500B758D3 /* Yahoo_FlurryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7359775D1C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_FlurryTests" */;
+			buildPhases = (
+				735977421C4322F500B758D3 /* Sources */,
+				735977431C4322F500B758D3 /* Frameworks */,
+				735977441C4322F500B758D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				735977481C4322F500B758D3 /* PBXTargetDependency */,
+			);
+			name = Yahoo_FlurryTests;
+			productName = Yahoo_FlurryTests;
+			productReference = 735977461C4322F500B758D3 /* Yahoo_FlurryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		735977501C4322F500B758D3 /* Yahoo_FlurryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735977601C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_FlurryUITests" */;
+			buildPhases = (
+				7359774D1C4322F500B758D3 /* Sources */,
+				7359774E1C4322F500B758D3 /* Frameworks */,
+				7359774F1C4322F500B758D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				735977531C4322F500B758D3 /* PBXTargetDependency */,
+			);
+			name = Yahoo_FlurryUITests;
+			productName = Yahoo_FlurryUITests;
+			productReference = 735977511C4322F500B758D3 /* Yahoo_FlurryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		735977271C4322F400B758D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Santa Clara iOS Connect";
+				TargetAttributes = {
+					7359772E1C4322F400B758D3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					735977451C4322F500B758D3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7359772E1C4322F400B758D3;
+					};
+					735977501C4322F500B758D3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7359772E1C4322F400B758D3;
+					};
+				};
+			};
+			buildConfigurationList = 7359772A1C4322F400B758D3 /* Build configuration list for PBXProject "Yahoo_Flurry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 735977261C4322F400B758D3;
+			productRefGroup = 735977301C4322F400B758D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7359772E1C4322F400B758D3 /* Yahoo_Flurry */,
+				735977451C4322F500B758D3 /* Yahoo_FlurryTests */,
+				735977501C4322F500B758D3 /* Yahoo_FlurryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7359772D1C4322F400B758D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735977401C4322F400B758D3 /* LaunchScreen.storyboard in Resources */,
+				7359773D1C4322F400B758D3 /* Assets.xcassets in Resources */,
+				735977381C4322F400B758D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735977441C4322F500B758D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7359774F1C4322F500B758D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7359772B1C4322F400B758D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735977351C4322F400B758D3 /* ViewController.swift in Sources */,
+				7359773B1C4322F400B758D3 /* Yahoo_Flurry.xcdatamodeld in Sources */,
+				735977331C4322F400B758D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735977421C4322F500B758D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7359774B1C4322F500B758D3 /* Yahoo_FlurryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7359774D1C4322F500B758D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735977561C4322F500B758D3 /* Yahoo_FlurryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		735977481C4322F500B758D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7359772E1C4322F400B758D3 /* Yahoo_Flurry */;
+			targetProxy = 735977471C4322F500B758D3 /* PBXContainerItemProxy */;
+		};
+		735977531C4322F500B758D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7359772E1C4322F400B758D3 /* Yahoo_Flurry */;
+			targetProxy = 735977521C4322F500B758D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		735977361C4322F400B758D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735977371C4322F400B758D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7359773E1C4322F400B758D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7359773F1C4322F400B758D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		735977581C4322F500B758D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		735977591C4322F500B758D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7359775B1C4322F500B758D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yahoo_Flurry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-Flurry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7359775C1C4322F500B758D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yahoo_Flurry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-Flurry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7359775E1C4322F500B758D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Yahoo_FlurryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-FlurryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo_Flurry.app/Yahoo_Flurry";
+			};
+			name = Debug;
+		};
+		7359775F1C4322F500B758D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Yahoo_FlurryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-FlurryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo_Flurry.app/Yahoo_Flurry";
+			};
+			name = Release;
+		};
+		735977611C4322F500B758D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Yahoo_FlurryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-FlurryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Yahoo_Flurry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		735977621C4322F500B758D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Yahoo_FlurryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-FlurryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Yahoo_Flurry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7359772A1C4322F400B758D3 /* Build configuration list for PBXProject "Yahoo_Flurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735977581C4322F500B758D3 /* Debug */,
+				735977591C4322F500B758D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7359775A1C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_Flurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7359775B1C4322F500B758D3 /* Debug */,
+				7359775C1C4322F500B758D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7359775D1C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_FlurryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7359775E1C4322F500B758D3 /* Debug */,
+				7359775F1C4322F500B758D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		735977601C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_FlurryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735977611C4322F500B758D3 /* Debug */,
+				735977621C4322F500B758D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		735977391C4322F400B758D3 /* Yahoo_Flurry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7359773A1C4322F400B758D3 /* Yahoo_Flurry.xcdatamodel */,
+			);
+			currentVersion = 7359773A1C4322F400B758D3 /* Yahoo_Flurry.xcdatamodel */;
+			path = Yahoo_Flurry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 735977271C4322F400B758D3 /* Project object */;
+}
