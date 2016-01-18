@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521444A71C4C5AF2005874CA /* libFlurry_7.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521444A61C4C5AF2005874CA /* libFlurry_7.3.0.a */; };
+		521444A91C4C5B49005874CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521444A81C4C5B49005874CA /* Security.framework */; };
+		521444AB1C4C5B51005874CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521444AA1C4C5B51005874CA /* SystemConfiguration.framework */; };
 		735977331C4322F400B758D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735977321C4322F400B758D3 /* AppDelegate.swift */; };
 		735977351C4322F400B758D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735977341C4322F400B758D3 /* ViewController.swift */; };
 		735977381C4322F400B758D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735977361C4322F400B758D3 /* Main.storyboard */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		521444A51C4C5AC6005874CA /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		521444A61C4C5AF2005874CA /* libFlurry_7.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.3.0.a; sourceTree = "<group>"; };
+		521444A81C4C5B49005874CA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		521444AA1C4C5B51005874CA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		521444AC1C4C5BDF005874CA /* Yahoo_Flurry-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Yahoo_Flurry-Bridging-Header.h"; sourceTree = "<group>"; };
 		7359772F1C4322F400B758D3 /* Yahoo_Flurry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yahoo_Flurry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		735977321C4322F400B758D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		735977341C4322F400B758D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521444AB1C4C5B51005874CA /* SystemConfiguration.framework in Frameworks */,
+				521444A91C4C5B49005874CA /* Security.framework in Frameworks */,
+				521444A71C4C5AF2005874CA /* libFlurry_7.3.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521444AD1C4C5F41005874CA /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				521444A61C4C5AF2005874CA /* libFlurry_7.3.0.a */,
+				521444A51C4C5AC6005874CA /* Flurry.h */,
+			);
+			name = Flurry;
+			sourceTree = "<group>";
+		};
+		521444AE1C4C5F63005874CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521444AA1C4C5B51005874CA /* SystemConfiguration.framework */,
+				521444A81C4C5B49005874CA /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		735977261C4322F400B758D3 = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +128,14 @@
 		735977311C4322F400B758D3 /* Yahoo_Flurry */ = {
 			isa = PBXGroup;
 			children = (
+				521444AC1C4C5BDF005874CA /* Yahoo_Flurry-Bridging-Header.h */,
 				735977321C4322F400B758D3 /* AppDelegate.swift */,
 				735977341C4322F400B758D3 /* ViewController.swift */,
 				735977361C4322F400B758D3 /* Main.storyboard */,
 				7359773C1C4322F400B758D3 /* Assets.xcassets */,
 				7359773E1C4322F400B758D3 /* LaunchScreen.storyboard */,
+				521444AE1C4C5F63005874CA /* Frameworks */,
+				521444AD1C4C5F41005874CA /* Flurry */,
 				735977411C4322F400B758D3 /* Info.plist */,
 				735977391C4322F400B758D3 /* Yahoo_Flurry.xcdatamodeld */,
 			);
@@ -405,8 +437,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Yahoo_Flurry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yahoo_Flurry",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-Flurry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yahoo_Flurry/Yahoo_Flurry-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -416,8 +453,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Yahoo_Flurry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yahoo_Flurry",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gSu.Yahoo-Flurry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yahoo_Flurry/Yahoo_Flurry-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +530,7 @@
 				7359775C1C4322F500B758D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7359775D1C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_FlurryTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +539,7 @@
 				7359775F1C4322F500B758D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735977601C4322F500B758D3 /* Build configuration list for PBXNativeTarget "Yahoo_FlurryUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +548,7 @@
 				735977621C4322F500B758D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
