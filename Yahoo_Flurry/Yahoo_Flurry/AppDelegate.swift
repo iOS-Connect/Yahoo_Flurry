@@ -9,14 +9,16 @@
 import UIKit
 import CoreData
 
+let FlurryAPIKey = "89VS3HP2RJY5HQZ5H3SR"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+		Flurry.startSession(FlurryAPIKey)
+		Flurry.logEvent("Started Application")
         return true
     }
 
@@ -39,6 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(application: UIApplication) {
+		Flurry.logEvent("Application Terminated")
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
